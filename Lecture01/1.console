@@ -1,0 +1,68 @@
+1 + 1
+2
+let x = 10; 
+undefined
+x
+10
+const y = 20
+undefined
+y
+20
+x++
+10
+x
+11
+y++
+TypeError: invalid assignment to const `y' [Learn More]
+let a = [1,2]
+undefined
+const b = [1,2]
+undefined
+a[0]
+1
+a[0] = 8
+8
+a
+Array [ 8, 2 ]
+b[0]
+1
+b[0] = 8
+8
+b = [3,4]
+TypeError: invalid assignment to const `b' [Learn More]
+typeof 1
+"number"
+typeof "hfdfxktugvj"
+"string"
+typeof 1.1
+"number"
+typeof true
+"boolean"
+typeof false
+"boolean"
+a
+Array [ 8, 2 ]
+typeof a
+"object"
+let h = {q:1, w: 2}
+undefined
+h
+Object { q: 1, w: 2 }
+typeof h
+"object"
+a
+Array [ 8, 2 ]
+let i = 'asdasd'
+undefined
+i
+"asdasd"
+i = null
+null
+i
+null
+typeof i
+"object"
+typeof null
+"object"
+typeof undefined
+"undefined"
