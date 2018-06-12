@@ -1,0 +1,64 @@
+document.body
+<body class="vsc-initialized">
+document.getElementsByClassName('p')
+HTMLCollection [  ]
+document.getElementsByTagName('p')
+HTMLCollection [ <p>, <p> ]
+document.getElementsByTagName('h1')
+HTMLCollection [ <h1> ]
+document.getElementsByTagName('p')[0]
+<p>
+let p1 = document.getElementsByTagName('p')[0]
+undefined
+p1
+<p>
+p1.innerText
+"Hello World"
+p1.innerText = "Something Else"
+"Something Else"
+p1.innerText = "Something <b>Else</b>"
+"Something <b>Else</b>"
+p1.innerHTML = "Something <b>Else</b>"
+"Something <b>Else</b>"
+p1.innerHTML
+"Something <b>Else</b>"
+p1.innerText
+"Something Else"
+p1.innerHTML = "Something <b>Else"
+"Something <b>Else"
+p1.innerHTML
+"Something <b>Else</b>"
+document.body.append('asdasd')
+undefined
+document.body.append('<i> some text </i>')
+undefined
+let newp = document.createElement('p')
+undefined
+newp
+<p>
+newp.innerText
+""
+newp.innerText = "something"
+"something"
+newp
+<p>
+document.body.appendChild(newp)
+<p>
+let list = document.createElement('ul')
+undefined
+document.body.appendChild(list)
+<ul>
+list
+<ul>
+let item1 = document.createElement('li')
+undefined
+item1.innerText = "this is first item"
+"this is first item"
+list.appendChild(item1)
+<li>
+list.appendChild(item1)
+<li>
+let item2 = item1
+undefined
+list.appendChild(item2)
+<li>

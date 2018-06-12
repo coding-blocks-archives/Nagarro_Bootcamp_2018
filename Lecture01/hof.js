@@ -21,3 +21,10 @@ function fun2 (f) {
 }
 
 fun2(fun1)
+
+
+function a () {
+    function a () {
+
+    }
+}
