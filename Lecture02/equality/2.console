@@ -1,0 +1,32 @@
+'asdasd' + 1
+"asdasd1"
+'1' + 1 + 1 
+"111"
+1 + 1 + '1'
+"21"
+[] + []
+""
+[] + {}
+"[object Object]"
+let x = {a: 10, b: 20}
+undefined
+x.toString()
+"[object Object]"
+JSON.stringify(x)
+"{"a":10,"b":20}"
+[] + {}
+"[object Object]"
+{} + []
+0
++[]
+0
+'1'
+"1"
++'1'
+1
++''
+0
+'' == 0
+true
++[]
+0
