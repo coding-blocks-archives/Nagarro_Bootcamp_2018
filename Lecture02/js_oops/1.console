@@ -1,0 +1,69 @@
+o3
+Object { c: 30 }
+o3.b 
+20
+o3.a 
+10
+o1.__proto__
+Object { , 15 more… }
+o1.__proto__.__proto__
+null
+"asdsad".__proto__
+String
+"asdsad".__proto__.__proto__
+Object { , 15 more… }
+"asdsad".__proto__.__proto__.__proto__
+null
+"asdsad".__proto__
+String
+typeof String
+"function"
+String.trim('  as')
+"as"
+String.trim is deprecated; use String.prototype.trim instead[Learn More] 
+"Asdsad".__proto__ == String
+false
+"Asdsad".__proto__ == String.prototype
+true
+let x = true
+undefined
+typeof x
+"boolean"
+x.__proto__
+Boolean
+x.__proto__ == Boolean.prototype
+true
+o1.__proto__ == Object.prototype
+true
+x
+true
+x.__proto__ == "ASdasd".__proto__
+false
+x.__proto__.__proto__ == "ASdasd".__proto__.__proto__
+true
+o3.__proto__
+Object { b: 20 }
+o3.__proto__.__proto__
+Object { a: 10 }
+o3.__proto__.__proto__.__proto__
+Object { , 15 more… }
+o3.__proto__.__proto__.__proto__.__proto__
+null
+o3
+Object { c: 30 }
+o3.a++
+10
+o3
+Object { c: 30, a: 11 }
+o2.a
+10
+o3 == o3.__proto__
+false
+o1.a = 50
+50
+o2.a
+50
+delete o3.a
+true
+o3.a
+50
