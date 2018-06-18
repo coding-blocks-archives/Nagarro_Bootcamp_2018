@@ -8,7 +8,8 @@ function libused () {
 libused()
 
 global.x = 10
+const a = 10
 module.exports = {
     getName,
-    a: 10
+    a
 }
